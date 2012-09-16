@@ -18,7 +18,6 @@
     })
 
     hljs.initHighlightingOnLoad();
-
   })
 
 })(window.jQuery)

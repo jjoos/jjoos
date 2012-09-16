@@ -11,19 +11,14 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
-        <style>
-            body {
-                padding-top: 40px;
-                padding-bottom: 40px;
-            }
-        </style>
         <link rel="stylesheet" href="css/vendor/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/vendor/pojoaque.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
-    <body>
+    <body data-spy="scroll">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -63,61 +58,53 @@
             <div class="row">
                 <nav class="span3 inner-sidebar">
                     <ul class="nav nav-list inner-sidenav">
-                        <li><a href="#download-bootstrap"><i class="icon-chevron-right"></i> Download</a></li>
-                        <li><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
-                        <li><a href="#contents"><i class="icon-chevron-right"></i> What's included</a></li>
-                        <li><a href="#html-template"><i class="icon-chevron-right"></i> HTML template</a></li>
-                        <li><a href="#examples"><i class="icon-chevron-right"></i> Examples</a></li>
-                        <li><a href="#what-next"><i class="icon-chevron-right"></i> What next?</a></li>
+                        <li><a href="#download"><i class="icon-chevron-right"></i> Download</a></li>
+                        <li><a href="#example"><i class="icon-chevron-right"></i> Example</a></li>
+                        <li><a href="#comments"><i class="icon-chevron-right"></i> Comments</a></li>
                     </ul>
                 </nav>
-            <div class="span9">
-                <section id="download-bootstrap">
-                    <div class="page-header">
-                        <h1>1. Download</h1>
+                <div class="span9 ">
+                    <section id="download">
+                        <div class="page-header">
+                            <h1>1. Download</h1>
+                        </div>
+                        <p>They were sparing of the Heat-Ray that night, either because they had but a limited supply of material for its production or because they did not wish to destroy the country but only to crush and overawe the opposition they had aroused.  In the latter aim they certainly succeeded.  Sunday night was the end of the organised opposition to their movements.  After that no body of men would stand against them, so hopeless was the enterprise.  Even the crews of the torpedo-boats and destroyers that had brought their quick-firers up the Thames refused to stop, mutinied, and went down again.  The only offensive operation men ventured upon after that night was the preparation of mines and pitfalls, and even in that their energies were frantic and spasmodic.</p>
+
+                        <pre><code>class A &lt; B; def self.create(object = User) object end end
+    class Zebra; def inspect; "X#{2 + self.object_id}" end end
+    12345678901234567890123456789012345678901234567890123456789012345678901234567890
+    module ABC::DEF
+      include Comparable
+
+      # @param test
+      # @return [String] nothing
+      def foo(test)
+        Thread.new do |blockvar|
+          ABC::DEF.reverse(:a_symbol, :'a symbol' + 'test' + test)
+        end.join
+      end
+
+      def [](index) self[index] end
+      def ==(other) other == self end
+    end
+
+    anIdentifier = an_identifier
+    Constant = 1</code></pre>
+                    </section>
+
+                    <section id="example">
+                        <div class="page-header">
+                            <h1>2. Example</h1>
+                        </div>
+                        <p>One has to imagine, as well as one may, the fate of those batteries towards Esher, waiting so tensely in the twilight.  Survivors there were none.  One may picture the orderly expectation, the officers alert and watchful, the gunners ready, the ammunition piled to hand, the limber gunners with their horses and waggons, the groups of civilian spectators standing as near as they were permitted, the evening stillness, the ambulances and hospital tents with the burned and wounded from Weybridge; then the dull resonance of the shots the Martians fired, and the clumsy projectile whirling over the trees and houses and smashing amid the neighbouring fields.</p>
+
+                        <p>One may picture, too, the sudden shifting of the attention, the swiftly spreading coils and bellyings of that blackness advancing headlong, towering heavenward, turning the twilight to a palpable darkness, a strange and horrible antagonist of vapour striding upon its victims, men and horses near it seen dimly, running, shrieking, falling headlong, shouts of dismay, the guns suddenly abandoned, men choking and writhing on the ground, and the swift broadening-out of the opaque cone of smoke.  And then night and extinction--nothing but a silent mass of impenetrable vapour hiding its dead.</p>
+                    </section>
+                    <div id="comments">
+                        <script type="text/javascript" src="http://jjoosblog.disqus.com/combination_widget.js?num_items=5&hide_mods=0&color=blue&default_tab=people&excerpt_length=200"></script>
                     </div>
-                    <p>They were sparing of the Heat-Ray that night, either because they had but a limited supply of material for its production or because they did not wish to destroy the country but only to crush and overawe the opposition they had aroused.  In the latter aim they certainly succeeded.  Sunday night was the end of the organised opposition to their movements.  After that no body of men would stand against them, so hopeless was the enterprise.  Even the crews of the torpedo-boats and destroyers that had brought their quick-firers up the Thames refused to stop, mutinied, and went down again.  The only offensive operation men ventured upon after that night was the preparation of mines and pitfalls, and even in that their energies were frantic and spasmodic.</p>
-
-                <pre><code>class A &lt; B; def self.create(object = User) object end end
-class Zebra; def inspect; "X#{2 + self.object_id}" end end
-
-module ABC::DEF
-  include Comparable
-
-  # @param test
-  # @return [String] nothing
-  def foo(test)
-    Thread.new do |blockvar|
-      ABC::DEF.reverse(:a_symbol, :'a symbol' + 'test' + test)
-    end.join
-  end
-
-  def [](index) self[index] end
-  def ==(other) other == self end
-end
-
-anIdentifier = an_identifier
-Constant = 1
-</code></pre>
-
-                </section>
-
-
-
-                <p>One has to imagine, as well as one may, the fate of those batteries towards Esher, waiting so tensely in the twilight.  Survivors there were none.  One may picture the orderly expectation, the officers alert and watchful, the gunners ready, the ammunition piled to hand, the limber gunners with their horses and waggons, the groups of civilian spectators standing as near as they were permitted, the evening stillness, the ambulances and hospital tents with the burned and wounded from Weybridge; then the dull resonance of the shots the Martians fired, and the clumsy projectile whirling over the trees and houses and smashing amid the neighbouring fields.</p>
-
-                <p>One may picture, too, the sudden shifting of the attention, the swiftly spreading coils and bellyings of that blackness advancing headlong, towering heavenward, turning the twilight to a palpable darkness, a strange and horrible antagonist of vapour striding upon its victims, men and horses near it seen dimly, running, shrieking, falling headlong, shouts of dismay, the guns suddenly abandoned, men choking and writhing on the ground, and the swift broadening-out of the opaque cone of smoke.  And then night and extinction--nothing but a silent mass of impenetrable vapour hiding its dead.</p>
-
-                <p>Before dawn the black vapour was pouring through the streets of Richmond, and the disintegrating organism of government was, with a last expiring effort, rousing the population of London to the necessity of flight.</p>
-
-                <p>So you understand the roaring wave of fear that swept through the greatest city in the world just as Monday was dawning--the stream of flight rising swiftly to a torrent, lashing in a foaming tumult round the railway stations, banked up into a horrible struggle about the shipping in the Thames, and hurrying by every available channel northward and eastward.  By ten o'clock the police organisation, and by midday even the railway organisations, were losing coherency, losing shape and efficiency, guttering, softening, running at last in that swift liquefaction of the social body.</p>
-
-                <p>All the railway lines north of the Thames and the South-Eastern people at Cannon Street had been warned by midnight on Sunday, and trains were being filled.  People were fighting savagely for standing-room in the carriages even at two o'clock.  By three, people were being trampled and crushed even in Bishopsgate Street, a couple of hundred yards or more from Liverpool Street station; revolvers were fired, people stabbed, and the policemen who had been sent to direct the traffic, exhausted and infuriated, were breaking the heads of the people they were called out to protect.</p>
-
-                <p>And as the day advanced and the engine drivers and stokers refused to return to London, the pressure of the flight drove the people in an ever-thickening multitude away from the stations and along the northward-running roads.  By midday a Martian had been seen at Barnes, and a cloud of slowly sinking black vapour drove along the Thames and across the flats of Lambeth, cutting off all escape over the bridges in its sluggish advance.  Another bank drove over Ealing, and surrounded a little island of survivors on Castle Hill, alive, but unable to escape.</p>
-                <script type="text/javascript" src="http://jjoosblog.disqus.com/combination_widget.js?num_items=5&hide_mods=0&color=blue&default_tab=people&excerpt_length=200"></script>
+                </div>
             </div>
-        </div>
         </article>
 
         <div class="modal hide fade" id="myModal" data-keyboard="true">
@@ -134,14 +121,12 @@ Constant = 1
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/vendor/highlight.pack.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
