@@ -99,6 +99,10 @@ pre {
   width: 530px;
 }
 
+h1 {
+      color: #272727;
+}
+
 /* Brand
 -------------------------------------------------- */
 
@@ -108,7 +112,7 @@ body > .navbar .brand {
     margin-left: 0px;
     float: left;
     font-weight: bold;
-    color: #999;
+    color: #E66;
     text-shadow:rgba(0, 0, 0, 0.398438) 0px 1px 3px, rgba(0, 0, 0, 0.0742188) 0px 0px 30px;
   -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
@@ -133,6 +137,7 @@ body > .navbar .brand:hover {
 .headingcta h1{
     font-size: 120px;
     line-height: 1;
+    color: #E66;
 }
 
 .headingcta-links {
