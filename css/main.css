@@ -92,7 +92,7 @@ body {
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
-    font: 400 18px/24px "open sans"; 
+    font: 500 18px/24px "open sans"; 
 }
 
 pre {
@@ -101,6 +101,20 @@ pre {
 
 h1 {
       color: #272727;
+}
+
+.page-header h1{
+
+    color: #272727;
+    font: 400 64px/50px "open sans";
+    letter-spacing: -3px;
+    margin: 0 0 0px 0;
+    padding: 0 4px;
+
+}
+
+.page-header {
+  border-bottom: 2px solid #272727;
 }
 
 /* Brand
@@ -255,7 +269,7 @@ hr.soften {
 }
 
 section {
-    padding-top: 30px;
+    padding-top: 8px;
 }
 
 /* Homepage Heading
@@ -281,7 +295,7 @@ section {
 }
 
 .inner-sidenav {
-  width: 215px;
+  width: 180px;
   margin: 30px 0 0;
   padding: 0;
   background-color: #999;
@@ -348,6 +362,10 @@ section {
   bottom: 270px;
 }
 
+.nav-list > li > a {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
 /* Responsive
 -------------------------------------------------- */
 
@@ -356,9 +374,6 @@ section {
 @media (min-width: 1200px) {
   .inner-container {
     max-width: 970px;
-  }
-  .inner-sidenav {
-    width: 258px;
   }
 }
 
@@ -402,6 +417,7 @@ section {
   .inner-sidenav {
     width: 166px;
     margin-top: 20px;
+
   }
   .inner-sidenav.affix {
     top: 0;
